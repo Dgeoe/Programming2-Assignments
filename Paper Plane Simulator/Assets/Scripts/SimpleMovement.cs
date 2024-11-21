@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class SimpleMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed of horizontal movement
-    public float upwardForce = 10f; // Force applied when holding space
+    public float moveSpeed = 5f; // Speed of horizontal movement (WASD)
+    public float upwardForce = 10f; // (HOLD SPACE)
 
     private Rigidbody rb;
 
@@ -14,20 +14,19 @@ public class SimpleMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Get input
-        float moveX = Input.GetAxis("Horizontal"); // A/D or Left/Right arrow keys
-        float moveZ = Input.GetAxis("Vertical");   // W/S or Up/Down arrow keys
+        float moveX = Input.GetAxis("Horizontal"); 
+        float moveZ = Input.GetAxis("Vertical");   
 
         // Calculate movement direction
         Vector3 movement = new Vector3(moveX, 0f, moveZ) * moveSpeed;
 
-        // Apply horizontal movement
+        // Very Basic 3D movement horizontal movement
         Vector3 newVelocity = rb.linearVelocity;
         newVelocity.x = movement.x;
         newVelocity.z = movement.z;
         rb.linearVelocity = newVelocity;
 
-        // Apply constant upward force when holding Space
+        // Constant Upward force 
         if (Input.GetKey(KeyCode.Space))
         {
             rb.AddForce(Vector3.up * upwardForce, ForceMode.Force);
