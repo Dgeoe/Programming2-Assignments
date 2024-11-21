@@ -1,0 +1,24 @@
+This assignment consists of two parts and will be based on the game you’re making throughout the year, you CANNOT CHANGE IT DRASTICALLY from this after it’s submitted so think carefully about what you choose to do. 
+
+You are required to submit a 1 page description (in Pdf format) of your game idea. This will form the basis for your initial game submission that will be updated bi-weekly throughout the remainder of the college year. In your submission you are required to outline your idea in the context of the following (though not limited to) areas:
+Game Story
+Game Play/Rules
+Core Mechanic
+Progression
+Economy
+You also need to describe in the doc how you are going to include the following elements throughout the rest of the year:
+Physics 10%
+Animation 10%
+Artificial Intelligence 10%
+Game Data (Different ways of storing date for throughout your game) 10%
+Shaders 10%
+
+Demonstrate your prototype and controls. The prototype should include the basic platform outline for you game and should include any features that you require in your game that will not be part of the taught content on the module (See list with percentages above). The outline of the module is included below.
+Depending on your game idea, you are required to demonstrate game controls created with either the Input Manager or Input System. No external plugins, apis or extensions to be used (NOTHING FROM THE ASSET STORE).
+Explain your prototype in class. You are required to give a clear explanation of the game, story, game-play, mechanics, progression and economy, as well as how you are going to include the graded elements in the future.
+
+IMPORTANT:
+IT HAS TO BE 3D.
+Every assessment from now on is building on this same game, NOT SEPARATE PROJECTS
+Grades will be based on an IN PERSON demonstration of your project. If you are not there YOU WILL NOT GET THE GRADE.
+Demonstrations last from 10-12 next week Tuesday.
