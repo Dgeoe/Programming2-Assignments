@@ -1548,7 +1548,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1762361473}
+  m_Mesh: {fileID: 1602069670}
 --- !u!33 &745787771
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -7931,7 +7931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74fa16c490fed2747a681120b229e9b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 5
+  forwardSpeed: 8
   turnSpeed: 30
   glideDescentRate: 0
   gravity: 1
@@ -21409,7 +21409,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 143971917}
+  m_Mesh: {fileID: 1762361473}
 --- !u!33 &1855577969
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -27543,7 +27543,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 143971917}
+  m_Mesh: {fileID: 1777803330}
 --- !u!33 &1934347562
 MeshFilter:
   m_ObjectHideFlags: 10
