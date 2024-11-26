@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -48,4 +49,36 @@ public class PaperPlaneMovement : MonoBehaviour
         Vector3 rotation = new Vector3(-pitch, turn, -turn * 0.5f) * turnSpeed; // Simulate rolling when turning
         rb.MoveRotation(rb.rotation * Quaternion.Euler(rotation * Time.fixedDeltaTime));
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("WindTunnel"))
+        {
+            StartCoroutine(BoostForwardSpeed());
+        }
+        else if (other.CompareTag("BoostPad"))
+        {
+            rb.AddForce(Vector3.up * 100f, ForceMode.Impulse); // Apply an upward impulse
+        }
+    }
+
+    private IEnumerator BoostForwardSpeed()
+    {
+        float originalSpeed = forwardSpeed;
+        float boostedSpeed = forwardSpeed * 3f;
+        forwardSpeed = boostedSpeed;
+
+        float duration = 3f; 
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            forwardSpeed = Mathf.Lerp(boostedSpeed, originalSpeed, elapsedTime / duration);
+            yield return null; // Wait for the next frame
+        }
+
+        forwardSpeed = originalSpeed; 
+    }
+
 }
