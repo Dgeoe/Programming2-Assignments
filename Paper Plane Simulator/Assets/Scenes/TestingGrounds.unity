@@ -7024,6 +7024,63 @@ MonoBehaviour:
   crumpleIntensity: 0.0055
   crumpleSmoothness: 1
   sphereFactor: 0.0005
+--- !u!1001 &2384544455320975011
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.370452
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.153292
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5508144
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 364470368979409010, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862086010015642034, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
+      propertyPath: m_Name
+      value: Patrol Bird
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 336c995b7bcbf1c4195ae4ad2e5c0c7e, type: 3}
 --- !u!1001 &4300736032890527177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7094,3 +7151,4 @@ SceneRoots:
   - {fileID: 1013244961}
   - {fileID: 1575291312}
   - {fileID: 4300736032890527177}
+  - {fileID: 2384544455320975011}
