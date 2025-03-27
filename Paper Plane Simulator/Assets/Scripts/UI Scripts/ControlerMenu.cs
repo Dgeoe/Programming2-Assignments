@@ -2,13 +2,12 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-//should be optimized 
-//should support controller
 //need to make scenes to fit all statements
 public class ControlerMenu : MonoBehaviour
 {
@@ -29,6 +28,32 @@ public class ControlerMenu : MonoBehaviour
 
     public Animator canvasanimator;
 
+    private Menu_Input_Actions inputActions;
+    private InputAction Move;
+    private InputAction MoveUp;
+    private InputAction Select;
+
+    private void Awake()
+    {
+        inputActions = new Menu_Input_Actions();
+    }
+
+    private void OnEnable()
+    {
+        Move = inputActions.Menu.Move;
+        Move.Enable();
+        MoveUp = inputActions.Menu.MoveUp;
+        MoveUp.Enable();
+        Select = inputActions.Menu.Select;
+        Select.Enable();
+    }
+
+    private void OnDisable()
+    {
+        Move.Disable();   
+        MoveUp.Disable();
+        Select.Disable();   
+    }
 
     void Start()
     {
@@ -42,7 +67,7 @@ public class ControlerMenu : MonoBehaviour
         {
             DebugMenuSelection(); 
 
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Move.triggered)
             {
                 x+=1;
                 if (x > 3)
@@ -51,7 +76,7 @@ public class ControlerMenu : MonoBehaviour
                 } 
                 DebugMenuSelection();
             }
-            else if (Input.GetKeyDown(KeyCode.W))
+            else if (MoveUp.triggered)
             {
                 x-=1;
                 if (x < 0 || x > 254)
@@ -60,7 +85,7 @@ public class ControlerMenu : MonoBehaviour
                 }
                 DebugMenuSelection();
             }
-            else if (Input.GetKeyDown(KeyCode.Space))
+            else if (Select.triggered)
             {
                 switch (x)
                 {
@@ -111,7 +136,7 @@ public class ControlerMenu : MonoBehaviour
         {
             DebugIncSelection();
 
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Move.triggered)
             {
                 y+=1;
                 if (y > 5)
@@ -120,7 +145,7 @@ public class ControlerMenu : MonoBehaviour
                 } 
                 DebugIncSelection(); 
             }
-            else if (Input.GetKeyDown(KeyCode.W))
+            else if (MoveUp.triggered)
             {
                 y-=1;
                 if (y < 0 || y > 254)
@@ -129,7 +154,7 @@ public class ControlerMenu : MonoBehaviour
                 }
                 DebugIncSelection(); 
             }
-            else if (Input.GetKeyDown(KeyCode.Space))
+            else if (Select.triggered)
             {
                 switch (y)
                 {
@@ -180,88 +205,32 @@ public class ControlerMenu : MonoBehaviour
         switch (y)
         {
             case 0:
-            arrows2[0].SetActive(true);
-            arrows2[1].SetActive(false);
-            arrows2[2].SetActive(false);
-            arrows2[3].SetActive(false);
-            arrows2[4].SetActive(false);
-            arrows2[5].SetActive(false);
-
-            inclusionPhotos[0].SetActive(true);
-            inclusionPhotos[1].SetActive(false);
-            inclusionPhotos[2].SetActive(false);
-            inclusionPhotos[3].SetActive(false);
-            inclusionPhotos[4].SetActive(false);
-
+            EnableOnly(arrows2, 0);
+            EnableOnly(inclusionPhotos, 0);
             break;
 
             case 1:
-            arrows2[0].SetActive(false);
-            arrows2[1].SetActive(true);
-            arrows2[2].SetActive(false);
-            arrows2[3].SetActive(false);
-            arrows2[4].SetActive(false);
-            arrows2[5].SetActive(false);
-
-            inclusionPhotos[0].SetActive(false);
-            inclusionPhotos[1].SetActive(true);
-            inclusionPhotos[2].SetActive(false);
-            inclusionPhotos[3].SetActive(false);
-            inclusionPhotos[4].SetActive(false);
+            EnableOnly(arrows2, 1);
+            EnableOnly(inclusionPhotos, 1);
             break;
 
             case 2:
-            arrows2[0].SetActive(false);
-            arrows2[1].SetActive(false);
-            arrows2[2].SetActive(true);
-            arrows2[3].SetActive(false);
-            arrows2[4].SetActive(false);
-            arrows2[5].SetActive(false);
-
-            inclusionPhotos[0].SetActive(false);
-            inclusionPhotos[1].SetActive(false);
-            inclusionPhotos[2].SetActive(true);
-            inclusionPhotos[3].SetActive(false);
-            inclusionPhotos[4].SetActive(false);
+            EnableOnly(arrows2, 2);
+            EnableOnly(inclusionPhotos, 2);
             break;
 
             case 3:
-            arrows2[0].SetActive(false);
-            arrows2[1].SetActive(false);
-            arrows2[2].SetActive(false);
-            arrows2[3].SetActive(true);
-            arrows2[4].SetActive(false);
-            arrows2[5].SetActive(false);
-
-            inclusionPhotos[0].SetActive(false);
-            inclusionPhotos[1].SetActive(false);
-            inclusionPhotos[2].SetActive(false);
-            inclusionPhotos[3].SetActive(true);
-            inclusionPhotos[4].SetActive(false);
+            EnableOnly(arrows2, 3);
+            EnableOnly(inclusionPhotos, 3);
             break;
 
             case 4:
-            arrows2[0].SetActive(false);
-            arrows2[1].SetActive(false);
-            arrows2[2].SetActive(false);
-            arrows2[3].SetActive(false);
-            arrows2[4].SetActive(true);
-            arrows2[5].SetActive(false);
-
-            inclusionPhotos[0].SetActive(false);
-            inclusionPhotos[1].SetActive(false);
-            inclusionPhotos[2].SetActive(false);
-            inclusionPhotos[3].SetActive(false);
-            inclusionPhotos[4].SetActive(true);
+            EnableOnly(arrows2, 4);
+            EnableOnly(inclusionPhotos, 4);
             break;
 
             case 5:
-            arrows2[0].SetActive(false);
-            arrows2[1].SetActive(false);
-            arrows2[2].SetActive(false);
-            arrows2[3].SetActive(false);
-            arrows2[4].SetActive(false);
-            arrows2[5].SetActive(true);
+            EnableOnly(arrows2, 5);
 
             inclusionPhotos[0].SetActive(false);
             inclusionPhotos[1].SetActive(false);
@@ -278,43 +247,22 @@ public class ControlerMenu : MonoBehaviour
         switch (x)
         {
             case 0:
-            arrows1[0].SetActive(true);
-            arrows1[1].SetActive(false);
-            arrows1[2].SetActive(false);
-            arrows1[3].SetActive(false);
-
-            menuPhotos[0].SetActive(true);
-            menuPhotos[1].SetActive(false);
-            menuPhotos[2].SetActive(false);
+            EnableOnly(arrows1, 0);
+            EnableOnly(menuPhotos, 0);
             break;
 
             case 1:
-            arrows1[0].SetActive(false);
-            arrows1[1].SetActive(true);
-            arrows1[2].SetActive(false);
-            arrows1[3].SetActive(false);
-
-            menuPhotos[0].SetActive(false);
-            menuPhotos[1].SetActive(true);
-            menuPhotos[2].SetActive(false);
+            EnableOnly(arrows1, 1);
+            EnableOnly(menuPhotos, 1);
             break;
 
             case 2:
-            arrows1[0].SetActive(false);
-            arrows1[1].SetActive(false);
-            arrows1[2].SetActive(true);
-            arrows1[3].SetActive(false);
-
-            menuPhotos[0].SetActive(false);
-            menuPhotos[1].SetActive(false);
-            menuPhotos[2].SetActive(true);
+            EnableOnly(arrows1, 2);
+            EnableOnly(menuPhotos, 2);
             break;
 
             case 3:
-            arrows1[0].SetActive(false);
-            arrows1[1].SetActive(false);
-            arrows1[2].SetActive(false);
-            arrows1[3].SetActive(true);
+            EnableOnly(arrows1, 3);
 
             menuPhotos[0].SetActive(false);
             menuPhotos[1].SetActive(false);
@@ -335,4 +283,12 @@ public class ControlerMenu : MonoBehaviour
 
         SceneManager.LoadScene(scenename);
     }
+
+    void EnableOnly(GameObject[] objects, int indexToEnable)
+    {
+        for (int i = 0; i < objects.Length; i++)
+            objects[i].SetActive(i == indexToEnable); 
+    }
+
+
 }

@@ -140,7 +140,7 @@ public class WaypointChaser : MonoBehaviour
 
         Gizmos.color = Color.red;
 
-        for (int i = 0; i < numRays; i++)
+        for (int i = 0; i < numRays; i++) 
         {
             float angleY = Random.Range(-spreadAngle, spreadAngle);
             float angleX = Random.Range(-spreadAngle / 2, spreadAngle / 2);
