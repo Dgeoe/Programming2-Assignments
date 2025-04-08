@@ -5,6 +5,8 @@ public class Placeholder4intro : MonoBehaviour
     public GameObject objectToDestroy;  
     public GameObject objectToEnable;   
 
+    private DisolveTest disolveTest;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) 
@@ -12,7 +14,7 @@ public class Placeholder4intro : MonoBehaviour
             Debug.Log("player in");
             if (objectToDestroy != null)
             {
-                Destroy(objectToDestroy);
+                disolveTest.StartDissolver();
             }
 
             if (objectToEnable != null)

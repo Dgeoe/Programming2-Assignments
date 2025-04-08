@@ -421,6 +421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 272271623}
+  - component: {fileID: 272271624}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -449,6 +450,29 @@ Transform:
   - {fileID: 2062518755}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272271624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272271622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6566dcd17b7ffd148b11fe2bb1201da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dissolveDuration: 2
+  dissolveStrength: 0
+  startColor: {r: 0, g: 0, b: 0, a: 0}
+  endColor: {r: 0.71380323, g: 0.7283019, b: 0.059088584, a: 0}
+  StartHub:
+  - {fileID: 1859429518}
+  - {fileID: 31998032}
+  - {fileID: 2053826106}
+  - {fileID: 686159387}
+  - {fileID: 1018431543}
+  - {fileID: 2062518754}
 --- !u!1001 &276088705
 PrefabInstance:
   m_ObjectHideFlags: 0

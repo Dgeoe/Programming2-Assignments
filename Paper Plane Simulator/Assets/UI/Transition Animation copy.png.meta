@@ -1,0 +1,1050 @@
+fileFormatVersion: 2
+guid: 09f8d5e9d4e743e46a1d7d098b33de56
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Transition Animation copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f06162dd663d56459a64a79df124154
+      internalID: -1378636409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ef07c420778fa40acff6ff205fc75c
+      internalID: 1282861218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b512e38f2eb234f89fcd09912ad31a
+      internalID: 671402980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc38b07efdac54196237c42ac761f9
+      internalID: -613912481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee6a89fa7c15114a9500cc1efa59c84
+      internalID: 1665370499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6010fe583057b4a4bb4dfc2073334ea9
+      internalID: 109106333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c27cc42594175419ced893ec2d0053
+      internalID: -234107849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_7
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d03ba7bdf7aac4289bd9fe8fbd6e3b
+      internalID: -1610773677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_8
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b0d4df70e333b459d9dd0b876b4067
+      internalID: -460414479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1800
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7654dd3ea58b841479094fa7109fff4f
+      internalID: -1315239885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd6cdb018345df4d85ebbff9ff92ec9
+      internalID: 864145314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868624761a2a6b843a4a16e861bfe20a
+      internalID: -1569648024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d100b7592dd737441a5a74009f81cd6c
+      internalID: 35610447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae75a301caf16624a999087879ff5b87
+      internalID: -2132438549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_14
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878384f83f686ef408947bfe6a756fcf
+      internalID: -1284145147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_15
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0a02a44d004b045bb74952cdc3fa58
+      internalID: 1623935743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_16
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71efb81ff128954aa11c4905e64ec16
+      internalID: -1206916005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_17
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea10a77e4992eef4e9661b6beeaed1e6
+      internalID: 529687578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_18
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2163692396651904b9b1966d1845ff3d
+      internalID: -794009587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_19
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1200
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e33e0dbc5628b4d9e7185eaaecc0f6
+      internalID: 945932824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac1773a9d15bff4c83b0875afdf7ff0
+      internalID: 1857376106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84a173a68a66374c8b1a795f5ee78ab
+      internalID: 1537206010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_22
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235e85e92459d0a44a09cc47439e3568
+      internalID: -239594712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d92857969d42448a10f8a82838f1f
+      internalID: 1838642168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_24
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90caf06cc7105e0468cb9e2af2c7cb17
+      internalID: 368297208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_25
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94221fb1c374a3f43b9f613aa786a3b7
+      internalID: -200706828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_26
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16824f79b8bec54da68d8990363e132
+      internalID: -2046798340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_27
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346008f423370364bb11562c8dabafea
+      internalID: -1018944198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_28
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954c3b3aceaaac64d8426e78789c60c1
+      internalID: -1574532481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_29
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 600
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f35885a816e444592ddae39fee7b90
+      internalID: 1133942523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b24d80c4b8968e428e8938a84ae3c36
+      internalID: 1406525129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1884213923ae14f4898f20c50e3787cb
+      internalID: -2081463729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7212cf56b4f134d4b81ff2981da3aac2
+      internalID: -952741650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_33
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291ce7be78723f446857827f97c2a687
+      internalID: 642743610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_34
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe434ba2c2258e24a93f4c1d7442ddc3
+      internalID: -2050826174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_35
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93801810e9e630547a2756fc6025e7b6
+      internalID: -1358245186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_36
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ffa4ddee7d8824c998d9baf4cb7592
+      internalID: -816588149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_37
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9525098138cbeeb4b9d260f0d72f206d
+      internalID: 993404844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_38
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf298c7d90067024098fba1dd68792b7
+      internalID: -217069776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition Animation copy_39
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 800
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a864a46ce84af7b4d9fef7fdda942e23
+      internalID: 2035978144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ca581e136d7c024782a215aac05701f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Transition Animation copy_0: -1378636409
+      Transition Animation copy_1: 1282861218
+      Transition Animation copy_10: 864145314
+      Transition Animation copy_11: -1569648024
+      Transition Animation copy_12: 35610447
+      Transition Animation copy_13: -2132438549
+      Transition Animation copy_14: -1284145147
+      Transition Animation copy_15: 1623935743
+      Transition Animation copy_16: -1206916005
+      Transition Animation copy_17: 529687578
+      Transition Animation copy_18: -794009587
+      Transition Animation copy_19: 945932824
+      Transition Animation copy_2: 671402980
+      Transition Animation copy_20: 1857376106
+      Transition Animation copy_21: 1537206010
+      Transition Animation copy_22: -239594712
+      Transition Animation copy_23: 1838642168
+      Transition Animation copy_24: 368297208
+      Transition Animation copy_25: -200706828
+      Transition Animation copy_26: -2046798340
+      Transition Animation copy_27: -1018944198
+      Transition Animation copy_28: -1574532481
+      Transition Animation copy_29: 1133942523
+      Transition Animation copy_3: -613912481
+      Transition Animation copy_30: 1406525129
+      Transition Animation copy_31: -2081463729
+      Transition Animation copy_32: -952741650
+      Transition Animation copy_33: 642743610
+      Transition Animation copy_34: -2050826174
+      Transition Animation copy_35: -1358245186
+      Transition Animation copy_36: -816588149
+      Transition Animation copy_37: 993404844
+      Transition Animation copy_38: -217069776
+      Transition Animation copy_39: 2035978144
+      Transition Animation copy_4: 1665370499
+      Transition Animation copy_5: 109106333
+      Transition Animation copy_6: -234107849
+      Transition Animation copy_7: -1610773677
+      Transition Animation copy_8: -460414479
+      Transition Animation copy_9: -1315239885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

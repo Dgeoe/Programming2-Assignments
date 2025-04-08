@@ -1,0 +1,18 @@
+AI INCLUSION BREAK DOWN
+==========================
+Autonomous Movement of Player and/or NPCs: Expand current enemy set up
+
+Waypoints used for Player and/or NPCs: Set Up Patrol bird
+
+
+Sense 1-4: ???
+
+
+AI
+======================================
+Bird (Waypoints + Cone + Chase) *
+Bird Tree (Boost On Plane, Audio Listener, Chase)
+Expand Current AI for wander and catch *
+
+
+unity 3d script that moves a character between a set of waypoints in order. The script should use an arrive function and a travel function to do this. The character this script attached to should shoot out a cone of raycasts downward from a set firing point. If an object tagged player flies into one of these raycasts the character should chase down the player object. 
