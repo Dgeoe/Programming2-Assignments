@@ -1,7 +1,6 @@
-using UnityEngine;
-
-[CreateAssetMenu(fileName = "TimeTrialStuff", menuName = "Scriptable Objects/TimeTrialStuff")]
-public class TimeTrialStuff : ScriptableObject
+[System.Serializable]
+public class TimeTrialStuff
 {
-    
+    public int Ringx = 0;
 }
+
