@@ -94,7 +94,8 @@ public class ControlerMenu : MonoBehaviour
                     break;
 
                     case 1:
-                    StartCoroutine(FadeOutAndPlay("Prototype")); //change scene for later
+                    //needs scene made
+                    //StartCoroutine(FadeOutAndPlay("Prototype")); //change scene for later
                     break;
 
                     case 2:
@@ -159,7 +160,7 @@ public class ControlerMenu : MonoBehaviour
                 switch (y)
                 {
                     case 0:
-                    StartCoroutine(FadeOutAndPlay("Prototype"));
+                    StartCoroutine(FadeOutAndPlay("Proto 1"));
                     break;
 
                     case 1:

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ControllerPopUp.unity
+    guid: 7f400977a38aca94099318560c5ba2bb
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 7bc436bf6fe63ce4a95c077a8238e5ae
   - enabled: 1
@@ -17,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Race.unity
     guid: 19a0a4444f2e1a844ab7f6a3358650c1
+  - enabled: 1
+    path: Assets/Scenes/Proto 1.unity
+    guid: 73bf7f6737d54254dbe6da43539cea09
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 86b06d59447aead4285ebbe48c74127b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: b40ee65f208e0704f8a4ef8c34f7499f, type: 3}
