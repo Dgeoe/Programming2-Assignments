@@ -5,7 +5,7 @@ public class Placeholder4intro : MonoBehaviour
     public GameObject objectToDestroy;  
     public GameObject objectToEnable;   
 
-    private DisolveTest disolveTest;
+    public DisolveTest disolveTest;
 
     private void OnTriggerEnter(Collider other)
     {

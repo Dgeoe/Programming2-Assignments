@@ -3,6 +3,8 @@ using UnityEngine;
 public class playoninput : MonoBehaviour
 {
     private Animator animator;
+    public GameObject IMAGINE;
+    public GameObject CAm;
 
     private void Start()
     {
@@ -18,6 +20,8 @@ public class playoninput : MonoBehaviour
         if (Input.anyKeyDown) 
         {
             animator.SetTrigger("Click");
+            IMAGINE.SetActive(true);
+            CAm.SetActive(true);
         }
     }
 }

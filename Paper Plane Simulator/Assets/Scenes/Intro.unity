@@ -243,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 272271622}
   objectToEnable: {fileID: 1606256880}
+  disolveTest: {fileID: 272271624}
 --- !u!65 &31998038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -428,7 +429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &272271623
 Transform:
   m_ObjectHideFlags: 0
@@ -462,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6566dcd17b7ffd148b11fe2bb1201da3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dissolveDuration: 2
+  dissolveDuration: 7
   dissolveStrength: 0
   startColor: {r: 0, g: 0, b: 0, a: 0}
   endColor: {r: 0.71380323, g: 0.7283019, b: 0.059088584, a: 0}
@@ -3734,7 +3735,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25586f8042c56d74bb092dda8e0b40ed, type: 2}
   m_sharedMaterial: {fileID: -9043546640255093339, guid: 25586f8042c56d74bb092dda8e0b40ed, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -9043546640255093339, guid: 25586f8042c56d74bb092dda8e0b40ed, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -4924,8 +4926,8 @@ Transform:
   m_GameObject: {fileID: 1859429518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.7516, y: -1.0856, z: 31.8463}
-  m_LocalScale: {x: 2.6527228, y: 1, z: 8.4121}
+  m_LocalPosition: {x: -2.6978, y: -0.8, z: -4.3131}
+  m_LocalScale: {x: 1.1606917, y: 1, z: 1.1802176}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 272271623}
@@ -5766,9 +5768,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 822271817}
   - {fileID: 328795359}
-  - {fileID: 2100566911}
   - {fileID: 703892062}
+  - {fileID: 2100566911}
   - {fileID: 1140302486}
+  - {fileID: 272271623}
   - {fileID: 1182888515}
   - {fileID: 731066728}
   - {fileID: 1564730685}
@@ -5776,4 +5779,3 @@ SceneRoots:
   - {fileID: 1101098316}
   - {fileID: 2134258306}
   - {fileID: 1149089601}
-  - {fileID: 272271623}

@@ -680,6 +680,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 4070756758529431649}
   spawnDistance: 80
+  sceneToLoad: 
+  Ringx: 0
+  loopmasker: {fileID: 0}
 --- !u!65 &693436679474787526
 BoxCollider:
   m_ObjectHideFlags: 0

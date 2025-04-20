@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DisolveTest : MonoBehaviour
 {
-    public float dissolveDuration = 2;
+    public float dissolveDuration = 10;
     public float dissolveStrength;
 
     public Color startColor;

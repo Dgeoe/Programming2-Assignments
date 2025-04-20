@@ -1405,6 +1405,9 @@ MonoBehaviour:
   glideDescentRate: 0
   gravity: 1
   CanShoot: 0
+  boostMultiplier: 2
+  boostDuration: 2
+  boostCooldown: 3
 --- !u!64 &1728438764
 MeshCollider:
   m_ObjectHideFlags: 0
